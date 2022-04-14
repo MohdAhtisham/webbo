@@ -1,0 +1,68 @@
+/* navbar css */
+.navbar {
+    background-color: #062C30;
+}
+.navbar .navbar-brand {
+    margin-left: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Bungee', cursive;
+}
+.navbar .navbar-brand:hover {
+    transform: scale(1.1);
+}
+.navbar .navbar-nav {
+    margin-right: 70px;
+}
+.navbar .navbar-nav a {
+    color: white;
+}
+.navbar .navbar-nav a:hover {
+    transform: scale(1.1);
+
+}
+/* used to give spacing between navbar items*/
+.navbar-nav li {
+    padding-left:10px;
+    padding-right:10px;
+  }
+  /* navbar css end */
+.img {
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 100%;
+}
+.h1 {
+    margin-bottom: 20px;
+    color: #062C30;
+    font-weight: bolder;
+    font-family: 'Bungee', cursive;
+
+}
+.h2 {
+    color: #062C30;
+    font-weight: bolder;
+}
+.button1 {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #062C30;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button1:hover {
+    background-color: white;
+    color: #062C30;
+}
+.align {
+    margin: 50px 30px 50px 30px;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+}
